@@ -3,7 +3,7 @@ a docker container with purpose to be a devbox accessible from the browser
 
 
 So it is my beginning on creation in github so be nice :)
-
+it's a one display system. no generation of different display for multiple users atm. No sound
 for build it, first edit passvnc file to change the password then you just have to do "docker build . -t devboxnovnc
 
 to run it, docker run docker run --name devbox -td -p your_port_number:6080 devboxnovnc
@@ -21,7 +21,11 @@ I will:
 - add user to avoid the usage of root as recommended in all System courses, books and as recommended by docker.
 - switch from the auto UI novnc to the more specialized novnc UI.
 - add diferent IDE and compilers
-
+- add generation of display for different users
+- add sound. 
+- add the possibility to choose the window manager 
+- different IDE as sublimetext, atom, netbeans, visualcode, codeblocks, spacemacs, jetbrains IDE
+- limit the usage of disk space.
 
 
 at the moment all the layers so sub-containers which is used by this project take 2.6 GB. I have also installed x2go and the possibility to connect to it but still needs some configuration. 
