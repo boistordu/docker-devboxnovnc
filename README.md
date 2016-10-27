@@ -28,7 +28,7 @@ I will:
 - limit the usage of disk space.
 
 
-at the moment all the layers so sub-containers which is used by this project take 2.6 GB. I have also installed x2go and the possibility to connect to it but still needs some configuration. 
+at the moment all the layers so sub-containers which is used by this project take 2.6 GB. 
 
 
 You are welcome to tell me if this project don't build itself on mac or other OSe's but it should build itself on debian-generic OS and windows with last stable version of the docker-engine. If you have other ideas you are welcome too. 
