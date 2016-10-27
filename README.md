@@ -6,7 +6,8 @@ So it is my beginning on creation in github so be nice :)
 
 for build it, first edit passvnc file to change the password then you just have to do "docker build . -t devboxnovnc
 
-to run it, docker run docker run --name devbox -td -p 6080:6080 devboxnovnc
+to run it, docker run docker run --name devbox -td -p your_port_number:6080 devboxnovnc
+
 
 you can attach it some volume if you want to transfer files to it (novnc doesn't yet accept file transfer) with the argument:
 -v /your_dir_path:/media/usb
